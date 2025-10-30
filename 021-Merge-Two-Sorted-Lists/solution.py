@@ -1,6 +1,3 @@
-# Merge Two Sorted Lists
-# LeetCode 21
-
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -8,6 +5,7 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        # Dummy List
         dummy = ListNode()
         c = dummy
 
